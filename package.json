@@ -1,0 +1,21 @@
+{
+  "name": "typescript-config",
+  "version": "1.0.0",
+  "description": "TypeScript configuration - compile, watch and run",
+  "keywords": [
+    "typescript",
+    "ts",
+    "configuration"
+  ],
+  "author": "Matej Lednár",
+  "license": "GNU General Public License v3.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx tsc",
+    "watch": "npx nodemon --watch ./dist/"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.3"
+  }
+}
