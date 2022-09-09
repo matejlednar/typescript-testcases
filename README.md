@@ -9,6 +9,7 @@ TypeScript boilerplate for test cases.
 ## File structure
 - src - place your TypeScript files here,
 - dist - auto-generated JavaScript files,
+- types - examples of test cases
 
 ## Prerequisites
 - Node.js
