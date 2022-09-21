@@ -19,10 +19,15 @@ TypeScript boilerplate for test cases.
 npm install
 
 ## Scripts
+
+### Run TypeScript compiler and JavaScript watcher
+
+```npm start```
+
 ### Run TypeScript compiler
 The TypeScript compiler (tsc) converts the instructions written in TypeScript (src directory) to its JavaScript equivalent (dist directory).
 
-```npm start```
+```npm run tsc```
 
 ### Watch and run JavaScript files
 Watch function is automatically running/restarting index.js file (Node.js application) when file changes in the dist directory are detected.

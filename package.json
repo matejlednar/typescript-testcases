@@ -11,7 +11,8 @@
   "license": "GNU General Public License v3.0",
   "main": "dist/index.js",
   "scripts": {
-    "start": "npx tsc",
+    "start": "npm run tsc & npm run watch",
+    "tsc": "npx tsc",
     "watch": "npx nodemon --watch ./dist/"
   },
   "devDependencies": {
