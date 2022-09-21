@@ -1,7 +1,7 @@
 # TypeScript Test Cases
 TypeScript boilerplate for test cases.
 
-1. Run scripts.
+1. Run script (npm start).
 2. Create a test case file (TypeScript file) based on the template (testcase-template.ts).
 3. Add TypeScript code into the wrapper.
 4. Import created test case file into the imports.ts.
