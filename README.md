@@ -26,11 +26,11 @@ npm install
 
 ### Run the project 
 
-Just run the following command and the project works. The command runs TypeScript compiler and JavaScript watcher
+Just run the following command and the project works. The command runs the TypeScript compiler and the JavaScript watcher.
 
 ```npm start```
 
-### Run TypeScript compiler
+### Run the TypeScript compiler
 The TypeScript compiler (tsc) converts the instructions written in TypeScript (src directory) to its JavaScript equivalent (dist directory). It is a part of the ```npm start``` script.
 
 ```npm run tsc```
