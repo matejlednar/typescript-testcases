@@ -42,12 +42,12 @@ Watch function is automatically running/restarting index.js file (Node.js applic
 
 ## Files
 
-##### imports.ts
+#### imports.ts
 
 Import your test case file here. 
 Comment (disable) unused imports (test case files).
 
-##### *.ts file (test case file)
+#### *.ts file (test case file)
 
 Place your TypeScript code inside the test() function.
 ```
