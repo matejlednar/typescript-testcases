@@ -24,9 +24,9 @@ npm install
 
 ## Scripts
 
-### Run TypeScript compiler and JavaScript watcher
+### Run the project 
 
-Just run the following command and the project works.
+Just run the following command and the project works. The command runs TypeScript compiler and JavaScript watcher
 
 ```npm start```
 
