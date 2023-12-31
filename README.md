@@ -1,10 +1,14 @@
 # TypeScript Test Cases
 TypeScript boilerplate for test cases.
 
-1. Run script (npm start).
-2. Create a test case file (TypeScript file) based on the template (testcase-template.ts).
-3. Add TypeScript code inside the test() function.
-4. Import created test case file into the imports.ts.
+## How it works
+
+1. Clone the repository.
+2. Run ```npm install```.
+3. Run script (npm start).
+4. Create a test case file (TypeScript file) based on the template (testcase-template.ts).
+5. Add TypeScript code inside the test() function.
+6. Import created test case file into the imports.ts.
 
 ## File structure
 - src - place your TypeScript files here,
