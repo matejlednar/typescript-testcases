@@ -3,13 +3,13 @@ TypeScript boilerplate for test cases.
 
 1. Run script (npm start).
 2. Create a test case file (TypeScript file) based on the template (testcase-template.ts).
-3. Add TypeScript code into the wrapper.
+3. Add TypeScript code inside the test() function.
 4. Import created test case file into the imports.ts.
 
 ## File structure
 - src - place your TypeScript files here,
 - dist - auto-generated JavaScript files,
-- types - examples of test cases
+- src/types - demo test cases
 
 ## Prerequisites
 - Node.js
@@ -22,15 +22,17 @@ npm install
 
 ### Run TypeScript compiler and JavaScript watcher
 
+Just run the following command and the project works.
+
 ```npm start```
 
 ### Run TypeScript compiler
-The TypeScript compiler (tsc) converts the instructions written in TypeScript (src directory) to its JavaScript equivalent (dist directory).
+The TypeScript compiler (tsc) converts the instructions written in TypeScript (src directory) to its JavaScript equivalent (dist directory). It is a part of the ```npm start``` script.
 
 ```npm run tsc```
 
 ### Watch and run JavaScript files
-Watch function is automatically running/restarting index.js file (Node.js application) when file changes in the dist directory are detected.
+Watch function is automatically running/restarting index.js file (Node.js application) when file changes in the dist directory are detected. It is a part of the ```npm start``` script.
 
 ```npm run watch```
 
