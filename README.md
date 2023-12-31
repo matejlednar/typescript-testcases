@@ -51,7 +51,7 @@ Comment (disable) unused imports (test case files).
 
 Place your TypeScript code inside the wrapper.
 ```
-export function run() {
+export default function test() {
 
 // place your TypeScript code here
 
