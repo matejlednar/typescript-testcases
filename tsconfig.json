@@ -9,11 +9,9 @@
 "compilerOptions": {
 "strict": true,
 "module": "commonjs",
-"charset": "utf-8",
 "outDir": "./dist",
 "target": "esnext",
 "sourceMap": true,
-"watch": true,
 "moduleResolution": "node",
 "noEmitOnError": true,
 "allowJs": true,

@@ -1,4 +1,4 @@
-export function run() {
+export default function stringTest01() {
 
     let str1: string = "Products";
     let str2: string = "Explorer";

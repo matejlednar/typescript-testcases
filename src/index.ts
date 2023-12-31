@@ -1,2 +1,2 @@
-import { run } from './imports';
-run();
+import test from './imports';
+test();
