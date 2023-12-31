@@ -49,7 +49,7 @@ Comment (disable) unused imports (test case files).
 
 ##### *.ts file (test case file)
 
-Place your TypeScript code inside the wrapper.
+Place your TypeScript code inside the test() function.
 ```
 export default function test() {
 
